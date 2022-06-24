@@ -70,7 +70,7 @@ Page({
 | complete | Function | 否 | 接口调用结束的回调函数（调用成功、失败都会执行）。 |
 
 ### selector 语法
-当传入 selector 参数，框架会执行 document.querySelector(selector) 以选取目标节点，支持标准的 CSS 选择器语法。
+selector 支持标准的 CSS 选择器语法，暂不支持跨自定义组件的后代选择器（.the-ancestor >>> .the-descendant）的语法。
 
 # 常见问题 FAQ
 
